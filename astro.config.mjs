@@ -2,7 +2,7 @@ import { defineConfig } from 'astro/config';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  site: 'https://bricsbrokers.info',
+  site: 'https://bricsbrokers.com',
   integrations: [sitemap()],
   i18n: {
     defaultLocale: 'en',
